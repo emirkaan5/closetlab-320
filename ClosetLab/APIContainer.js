@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Component } from 'react';
 // export const base_url = "http://localhost:8000/api/" // local host, for dev, make sure to comment out before pushing
-export const base_url = "http://3.16.25.91/api/"
+export const base_url = "https://closetlab.tech/api/"
 
 function fetchAPI(path, options = undefined) {
     const [data, setData] = useState([]);
